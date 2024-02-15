@@ -14,3 +14,7 @@
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
 git clone https://github.com/EOYOHOO/UA2F.git package/UA2F
 git clone https://github.com/EOYOHOO/rkp-ipid.git package/rkp-ipid
+rm -rf feeds/packages/utils/watchcat
+svn co https://github.com/openwrt/packages/trunk/utils/watchcat feeds/packages/utils/watchcat
+
+git clone https://github.com/gngpp/luci-app-watchcat-plus.git package/luci-app-watchcat-plus
