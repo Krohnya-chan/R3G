@@ -16,3 +16,7 @@ git clone https://github.com/EOYOHOO/UA2F.git package/UA2F
 git clone https://github.com/EOYOHOO/rkp-ipid.git package/rkp-ipid
 
 git clone https://github.com/gngpp/luci-app-watchcat-plus.git package/luci-app-watchcat-plus
+
+cd feeds/luci/themes
+rm -rf luci-theme-argon
+git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git luci-theme-argon
